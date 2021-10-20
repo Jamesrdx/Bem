@@ -1,0 +1,22 @@
+.card {
+    background-color: rgb(194, 220, 241);
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.card__img {
+    height: 250px;
+    width: 700px;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    
+   
+}
