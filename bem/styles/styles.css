@@ -36,16 +36,44 @@
 .button
 {
     border: none;
-    min-width: 180px;
+    min-width: 100px;
     height: 50px;
     padding: 0 30px;
-    background: black;
-    color: azure;
+    background: dimgrey ;
+    color: rgb(255, 255, 255);
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 50px;
     text-decoration: none;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     transition: .3s ease all; 
+}
+
+.phrbutton{
+text-align: center;
+margin:70px 0 ;
+}
+.phrbutt__text {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.button--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+.button--absolute:hover {
+    background: rgb(43, 49, 49);
+}
+
+.button--buyItem{
+    background: rgb(112, 173, 19);
+    text-align: center;
+}
+.button--buyItem:hover {
+    background: rgb(10, 126, 10);
 }
