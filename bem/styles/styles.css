@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1300px;
+    height: 900px;
+}
 .card {
     background-color: rgb(194, 220, 241);
     border-radius: 15px;
@@ -24,9 +33,10 @@
 .card__text{
     font-family: 'Times New Roman', Times, serif;
 }
-.card__title{
+.card__linkTitle{
     font-size: 30px;
     font-weight: normal;
+    text-decoration: none;
 }
 .card__extract{
     font-size: 20px;
